@@ -97,8 +97,7 @@ void loop() {
   float humidity = dht.readHumidity();
 
   // Read rain sensor
-  int rainValue = analogRead(RAIN_PIN);
-  bool isRaining = (rainValue < RAIN_THRESHOLD);
+  int rainValue = digitalRead(RAIN_PIN);
 
   // Read pressure from BMP180
   float pressure = bmp.readPressure() / 100.0;
@@ -113,7 +112,7 @@ void loop() {
   Serial.println(" %");
 
   Serial.print("Rain: ");
-  Serial.println(isRaining ? "Yes" : "No");
+  Serial.println((rainValue == 0 ? "Yes" : "No"));
   
 
   Serial.print("Pressure: ");
@@ -125,7 +124,7 @@ void loop() {
     client.publish("iotproject59283273_esp32/temperature", String(temperature).c_str());
     client.publish("iotproject59283273_esp32/humidity", String(humidity).c_str());
     client.publish("iotproject59283273_esp32/pressure", String(pressure).c_str());
-    client.publish("iotproject59283273_esp32/israining", String(isRaining).c_str());
+    client.publish("iotproject59283273_esp32/israining", String(rainValue).c_str());
 }
 
   delay(2000); // Delay for 2 seconds before taking readings again
