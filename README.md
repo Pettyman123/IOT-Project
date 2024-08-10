@@ -45,7 +45,7 @@ Upload the code to the ESP32.</li>
 <li>Once the system is up and running, it will continuously collect data from the connected sensors. You can view the data in real-time and use it for various applications such as weather forecasting, environmental research, and more.</li>
 
 <h3>Contributing</h3>
-We welcome contributions to enhance the Weather Monitoring System. Feel free to fork the repository, make your changes, and submit a pull request.
+We welcome contributions to enhance the Weather Monitoring System. Feel free to fork the repository, make your changes, and submit a pull request.Have a nice day.
 
 <h3>License</h3>
 This project is licensed under the MIT License - see the LICENSE file for details.
