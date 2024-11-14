@@ -3,7 +3,7 @@
 
 
 <h1><b>"WEATHER MONITORING SYSTEM"</b></h1>
-<p>IOT device to monitor enviornmental changes with integration of dynamic change</p>
+<p>IOT device to monitor enviornmental changes with integration of dynamic changes</p>
 <p>It basically monitors : TEMPERATURE, HUMIDITY, RAIN , PRESSURE, ALTITUDE</p>
 
 <h1>Overview</h1>
