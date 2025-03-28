@@ -4,7 +4,7 @@
 
 <h1><b>"WEATHER MONITORING SYSTEM"</b></h1>
 <p>IOT device to monitor enviornmental changes with integration of dynamic change</p>
-<p>It basically monitors : TEMPERATURE, HUMIDITY, RAIN , PRESSURE, ALTITUDE</p>
+<p>It basically monitors : TEMPERATURE, HUMIDITY, RAIN , PRESSURE, ALTITUDES</p>
 
 <h1>Overview</h1>
 This Weather Monitoring System is an IoT project designed to monitor and report weather conditions. It integrates various sensors to provide accurate data on several environmental parameters. The system is built around the ESP32 microcontroller, ensuring efficient data processing and seamless communication with other component.
